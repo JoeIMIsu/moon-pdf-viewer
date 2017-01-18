@@ -584,8 +584,8 @@ target.firefox = function() {
   cp(FIREFOX_CONTENT_DIR + 'PdfJs-stub.jsm',
      FIREFOX_BUILD_CONTENT_DIR + 'PdfJs.jsm');
 
-  cp(FIREFOX_CONTENT_DIR + 'PdfJsTelemetry-addon.jsm',
-     FIREFOX_BUILD_CONTENT_DIR + 'PdfJsTelemetry.jsm');
+//  cp(FIREFOX_CONTENT_DIR + 'PdfJsTelemetry-addon.jsm',
+//     FIREFOX_BUILD_CONTENT_DIR + 'PdfJsTelemetry.jsm');
 
   // Copy extension files
   cd(FIREFOX_EXTENSION_DIR);
@@ -702,7 +702,7 @@ target.mozcentral = function() {
   mkdir('-p', MOZCENTRAL_CONTENT_DIR + '/web');
   mkdir('-p', MOZCENTRAL_CONTENT_DIR + '/web/cmaps');
 
-  cp(FIREFOX_CONTENT_DIR + 'PdfJsTelemetry.jsm', MOZCENTRAL_CONTENT_DIR);
+//  cp(FIREFOX_CONTENT_DIR + 'PdfJsTelemetry.jsm', MOZCENTRAL_CONTENT_DIR);
 
   // Copy extension files
   cd('extensions/firefox');
