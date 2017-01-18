@@ -631,7 +631,7 @@ target.firefox = function() {
   var VERSION = getCurrentVersion();
   sed('-i', /PDFJSSCRIPT_VERSION/, VERSION,
       FIREFOX_BUILD_DIR + '/install.rdf');
-  sed('-i', /PDFJSSCRIPT_VERSION/, VERSION,
+  sed('-i', /PDFJSSCRIPT_VERSION/g, VERSION,
       FIREFOX_BUILD_DIR + '/update.rdf');
 
   sed('-i', /PDFJSSCRIPT_STREAM_CONVERTER_ID/, FIREFOX_STREAM_CONVERTER_ID,
