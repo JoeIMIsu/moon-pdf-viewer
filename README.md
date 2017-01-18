@@ -1,4 +1,10 @@
-# PDF.js
+# Moon PDF Viewer
+
+**[Moon PDF Viewer](https://github.com/JustOff/moon-pdf-viewer/releases)** is add-on for **Pale Moon** browser based on **PDF.js** from **Mozilla**
+
+<hr>
+
+## PDF.js
 
 PDF.js is a Portable Document Format (PDF) viewer that is built with HTML5.
 
