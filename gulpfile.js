@@ -373,7 +373,8 @@ gulp.task('buildnumber', function (done) {
 
     console.log('Extension build number: ' + buildNumber);
 
-    var version = config.versionPrefix + buildNumber;
+//    var version = config.versionPrefix + buildNumber;
+    var version = config.versionPrefix;
 
     exec('git log --format="%h" -n 1', function (err, stdout, stderr) {
       var buildCommit = '';
